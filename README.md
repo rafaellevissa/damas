@@ -7,38 +7,38 @@ _Implementação em java de um jogo de damas para a disciplina de Programação 
 
 ##Classes
 
-##Jogo:
-##Iniciar()
+###Jogo:
+####Iniciar()
 
-##Tabuleiro:
-##Casas ocasa
+###Tabuleiro:
+####Casas ocasa
 
-##Placar:
-##Jogador ojogador
+###Placar:
+####Jogador ojogador
 
-##Casa:
-##Cor
-##Status
-##Coordenada ocoordenada
+###Casa:
+####Cor
+####Status
+####Coordenada ocoordenada
 
-##Jogador:
-##Nome
-##Score
+###Jogador:
+####Nome
+####Score
 
-##Jogada:
-##Movimento
-##Jogador ojogador
+###Jogada:
+####Movimento
+####Jogador ojogador
 
-##Coordenada:
-##int X
-##int Y
+###Coordenada:
+####int X
+####int Y
 
-##Movimento:
-##CasaOrigem
-##CasaDestino
+###Movimento:
+####CasaOrigem
+####CasaDestino
 
-##Regra:
+###Regra:
 
-##Peça:
-##Cor
+###Peça:
+####Cor
 
