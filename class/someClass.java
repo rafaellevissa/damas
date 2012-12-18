@@ -1,7 +1,8 @@
-class someClass
+public class someClass
 {
-  public static main void doSomething()
+	
+  public static void main (String[] args)
   {
-    
+    System.out.println("Imprimir algo na tela!");
   }
 }
