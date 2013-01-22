@@ -1,4 +1,4 @@
-package Damas\Entity;
+package Damas.Entity;
 
 public class someClass
 {
