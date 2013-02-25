@@ -1,5 +1,3 @@
-package Damas.Entity;
-
 public class someClass
 {
 	
