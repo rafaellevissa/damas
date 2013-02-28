@@ -22,5 +22,8 @@ public class Jogador {
 	public void setNPecas(int[] nPecas) {
 		NPecas = nPecas;
 	}
+	public void jogar(){
+		
+	}
 
 }
