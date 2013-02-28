@@ -1,3 +1,6 @@
 public class Dama extends Peca{
-//oi
+  //sobrecarga no metodo mover
+  public void mover(){
+    
+  }
 }
