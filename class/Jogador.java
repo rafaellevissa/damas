@@ -1,9 +1,8 @@
-
 public class Jogador {
 	
 	String Nome;
 	int Cor;
-	int[] NPeças;
+	int[] NPecas;
 	
 	public String getNome() {
 		return Nome;
@@ -17,11 +16,11 @@ public class Jogador {
 	public void setCor(int cor) {
 		Cor = cor;
 	}
-	public int[] getNPeças() {
-		return NPeças;
+	public int[] getNPecas() {
+		return NPecas;
 	}
-	public void setNPeças(int[] nPeças) {
-		NPeças = nPeças;
+	public void setNPeças(int[] nPecas) {
+		NPecas = nPecas;
 	}
 
 }
