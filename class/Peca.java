@@ -1,8 +1,7 @@
-
 public class Peca {
 	
-	String Cor;
-	Integer Posição;
+	private String Cor;
+	private Integer Posicao;
 	
 	public String getCor() {
 		return Cor;
@@ -10,11 +9,14 @@ public class Peca {
 	public void setCor(String cor) {
 		Cor = cor;
 	}
-	public Integer getPosição() {
-		return Posição;
+	public Integer getPosicao() {
+		return Posicao;
 	}
-	public void setPosição(Integer posição) {
-		Posição = posição;
+	public void setPosicao(Integer posicao) {
+		Posicao = posicao;
+	}
+	public void mover(){
+		
 	}
 
 }
