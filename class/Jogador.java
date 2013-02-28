@@ -19,7 +19,7 @@ public class Jogador {
 	public int[] getNPecas() {
 		return NPecas;
 	}
-	public void setNPeças(int[] nPecas) {
+	public void setNPecas(int[] nPecas) {
 		NPecas = nPecas;
 	}
 
