@@ -1,4 +1,3 @@
-
 public class Casa {
 
 	String Cor;
@@ -10,7 +9,7 @@ public class Casa {
 	public void setCor(String cor) {
 		Cor = cor;
 	}
-	public boolean isStatus() {
+	public boolean getStatus() {
 		return Status;
 	}
 	public void setStatus(boolean status) {
