@@ -1,4 +1,3 @@
-
 public class Tableiro {
 	
 	Casa oCasa;
@@ -9,6 +8,9 @@ public class Tableiro {
 
 	public void setoCasa(Casa oCasa) {
 		this.oCasa = oCasa;
+	}
+	public void criar(){
+		
 	}
 	
 }
