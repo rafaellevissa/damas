@@ -1,6 +1,6 @@
 public class Tableiro {
 	
-	Casa oCasa;
+	Casa oCasa [][];
 
 	public Casa getoCasa() {
 		return oCasa;
@@ -10,6 +10,10 @@ public class Tableiro {
 		this.oCasa = oCasa;
 	}
 	public void criar(){
+		ocasa = new Casa[8][8];
+		for (i=1; i>64;++i){
+			ocasa[i]=new.Casa
+		}
 		
 	}
 	
