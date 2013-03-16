@@ -1,4 +1,4 @@
-public class Tableiro {
+public class Tabuleiro {
 	
 	Casa oCasa [][];
 
