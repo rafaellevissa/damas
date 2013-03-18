@@ -9,10 +9,11 @@ public class Tabuleiro {
 	public void setoCasa(Casa oCasa) {
 		this.oCasa = oCasa;
 	}
+	int i;
 	public void criar(){
-		ocasa = new Casa[8][8];
+		oCasa = new Casa[8][8];
 		for (i=1; i>64;++i){
-			ocasa[i]=new.Casa
+			oCasa[i]=new.Casa
 		}
 		
 	}
