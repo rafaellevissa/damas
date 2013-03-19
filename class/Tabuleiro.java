@@ -1,21 +1,19 @@
 public class Tabuleiro {
-	
+
 	Casa oCasa [][];
 
-	public Casa getoCasa() {
-		return oCasa;
+	public Casa getoCasa(int l, int c) {
+		return oCasa[l][c];
 	}
-
-	public void setoCasa(Casa oCasa) {
-		this.oCasa = oCasa;
+	public void setoCasa(Casa oCasa, int l, int c) {
+		this.oCasa[l][c] = oCasa;
 	}
-	int i;
 	public void criar(){
-		oCasa = new Casa[8][8];
-		for (i=1; i>64;++i){
-			oCasa[i]=new.Casa
-		}
-		
+            oCasa = new Casa[8][8];
+            for (int i=1;i>8;++i){
+                for (int j=1;j>8;++i){
+                    oCasa[i][j]=new Casa();
+                }
+            }
 	}
-	
 }
