@@ -1,9 +1,8 @@
 public class Jogador {
-	
 	String Nome;
 	int Cor;
-	int[] NPecas;
-	
+	int QtdPecas;
+
 	public String getNome() {
 		return Nome;
 	}
@@ -16,14 +15,14 @@ public class Jogador {
 	public void setCor(int cor) {
 		Cor = cor;
 	}
-	public int[] getNPecas() {
-		return NPecas;
+	public int getQtdPecas() {
+		return QtdPecas;
 	}
-	public void setNPecas(int[] nPecas) {
-		NPecas = nPecas;
+	public void setQtdPecas(int qtdPecas) {
+		QtdPecas = qtdPecas;
 	}
 	public void jogar(){
-		
+
 	}
 
 }
