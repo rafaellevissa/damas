@@ -1,7 +1,5 @@
 public class Tabuleiro {
-
 	Casa oCasa [][];
-
 	public Casa getoCasa(int l, int c) {
 		return oCasa[l][c];
 	}
@@ -10,9 +8,18 @@ public class Tabuleiro {
 	}
 	public void criar(){
             oCasa = new Casa[8][8];
-            for (int i=1;i>8;++i){
-                for (int j=1;j>8;++i){
-                    oCasa[i][j]=new Casa();
+            System.out.println("   1 2 3 4 5 6 7 8");
+            for (int i=1;i<9;++i){//percorrendo linhas
+                String str = String.valueOf(i);
+                System.out.println(str+" | | | | | | | | |");
+                for (int j=1;j<9;++j){//percorrendo colunas
+                    oCasa[i][j]= new Casa();
+                    oCasa[i][j].setStatus(true);
+                    if ((i+j)%2==0){
+                        oCasa[i][j].setCor("Preta");
+                    }else{
+                        oCasa[i][j].setCor("Branca");
+                    }
                 }
             }
 	}
