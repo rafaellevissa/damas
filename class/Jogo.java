@@ -18,6 +18,12 @@ public class Jogo {
         jname = in.nextLine();
         Jogador2.setNome(jname);
         oJogo.setStatus(true);
-        
+        System.out.println("Carregando o jogo...");
+        Jogador1.setQtdPecas(12);
+        Jogador2.setQtdPecas(12);
+        Jogador1.setCor(0);
+        Jogador2.setCor(1);
+        Tabuleiro oTabuleiro = new Tabuleiro();
+        oTabuleiro.criar();
     }
 }
