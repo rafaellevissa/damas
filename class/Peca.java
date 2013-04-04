@@ -1,22 +1,22 @@
 public class Peca {
-	
+
 	private String Cor;
-	private Integer Posicao;
-	
+	private Integer[] Posicao;
+
 	public String getCor() {
 		return Cor;
 	}
 	public void setCor(String cor) {
 		Cor = cor;
 	}
-	public Integer getPosicao() {
-		return Posicao;
+	public Integer getPosicao(Integer i) {
+            return Posicao[i];
 	}
-	public void setPosicao(Integer posicao) {
-		Posicao = posicao;
+	public void setPosicao(Integer x, Integer y) {
+		Posicao[1]= x;
+                Posicao[2]= y;
 	}
 	public void mover(){
-		
-	}
 
+	}
 }
