@@ -9,10 +9,10 @@ public class Tabuleiro {
 	public void criar(){
             oCasa = new Casa[8][8];
             System.out.println("   1 2 3 4 5 6 7 8");
-            for (int i=1;i<9;++i){//percorrendo linhas
-                String str = String.valueOf(i);
+            for (int i=0;i<8;++i){//percorrendo linhas
+                String str = String.valueOf(i+1);
                 System.out.println(str+" | | | | | | | | |");
-                for (int j=1;j<9;++j){//percorrendo colunas
+                for (int j=0;j<8;++j){//percorrendo colunas
                     oCasa[i][j]= new Casa();
                     oCasa[i][j].setStatus(true);
                     if ((i+j)%2==0){
